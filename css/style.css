@@ -11,33 +11,78 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-40%);
+  transform: translate(-50%, -40%);
 }
 @media screen and (max-width: 1200px) {
   div .position_card {
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -40%);
   }
-  h3 .join_channel {
-    width: unset;
+  div h1 {
+    font-size: 4rem;
+    font-weight: bolder;
   }
- 
+  div .first_page_text {
+    font-size: 4.5rem;
+    font-weight: bolder !important;
+  }
+  div .blue_gradient {
+    width: 100vw;
+  }
+  div .swiper-container {
+    height: 55vh;
+  }
+  div .inner_card_heading {
+    font-size: 2.5rem;
+  }
+  div .inner_card_paragraph_text {
+    font-size: 1.5rem;
+  }
+  div .mini_square {
+    height: 13rem;
+  }
+
+  div .common_blue_page_head {
+    font-size: 4rem;
+    font-weight: bolder !important;
+  }
+  div .paragraph_text {
+    font-size: 2rem;
+    font-weight: 600 !important;
+  }
+
+  div .two_and_nine_page {
+    font-size: 3rem;
+    font-weight: bold !important;
+  }
+  div .group_name,
+  div .page_number,
+  div .comments_text {
+    font-size: 1.5rem;
+  }
+  div .comments_text {
+    color: red;
+  }
+  div .fa-angle-double-right,
+  div .comments_arrow {
+    font-size: 3rem;
+  }
 }
 .insta_square {
   /* width: 20vw;
   height: 20vw; */
   background-color: #bac4d4c0;
-  position: relative;
+  /* position: relative; */
   /* width: 100%; */
-  padding-top: 100%;
+  /* padding-top: 100%; */
 }
 .insta_square_body {
-  position: absolute;
+  /* position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
-  right: 0;
+  right: 0; */
   font-size: 20px;
   color: #4476da;
 }
@@ -69,20 +114,22 @@ body {
 }
 .mini_square_text {
   font-size: 0.8rem;
-  font-weight: 300;
+  font-weight: 400;
 }
-/* .swiper-container {
-   width: 100%; 
-   padding-top: 50px;
-  padding-bottom: 50px; 
-} */
+.swiper-container {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
-/* .swiper-slide {
+.swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 100%;
+  width: 300px;
   height: 300px;
-} */
+}
 /* 
 <style>
     .container {
